@@ -44,9 +44,22 @@ public class UC {
 		}
 			
 	
+     //  UC3
+	
+	
+		if(Double.compare(length1, length2)==0) {
+			System.out.println("Both are equal");
+		}
+		else if(Double.compare(length1, length2)<0){
+			System.out.println("length1 is less than length2");
+		}
+		else {
+			System.out.println("length2 is greater than length1");
+		}
 	}
 	
 }
+	
 		
 	
 
