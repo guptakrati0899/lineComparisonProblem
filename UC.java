@@ -46,16 +46,20 @@ public class UC {
 	
      //  UC3
 	
+	  Double a= length1;
+	  Double b= length2;
 	
-		if(Double.compare(length1, length2)==0) {
-			System.out.println("Both are equal");
-		}
-		else if(Double.compare(length1, length2)<0){
-			System.out.println("length1 is less than length2");
-		}
-		else {
-			System.out.println("length2 is greater than length1");
-		}
+	 int compareValue = a.compareTo(b);
+	  
+     if (compareValue == 0) {
+         System.out.println("lengths are equal");
+     }
+     else if (compareValue < 0) {
+         System.out.println("Length 2 is greater than Length 1");
+     }
+     else {
+         System.out.println("Length 1 is greater tha length 2");
+     }
 	}
 	
 }
